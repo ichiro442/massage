@@ -387,7 +387,7 @@ table tr {
 
 /* ----------------------------------レスポンシブ--------------------------------------------- */
 /* --------------予約入力画面------------------------ */
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 480px) {
   /* 320pxまでの幅の場合に適応される */
   /* body {
     background-color: #68b876;
@@ -410,7 +410,7 @@ table tr {
     height: 50rem;
   }
   .titleImg {
-    width: 17rem;
+    width: 20rem;
   }
   .reservation {
     width: 90%;
