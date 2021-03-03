@@ -82,7 +82,6 @@ body {
   /* background-image: url(http://tamagin-urara.com/wp-content/themes/urara/assets/img/bg_body.jpg);  */
   background-size: cover;
 }
-/* -----------テスト------------------ */
 .titleImg {
   display: inline-block;
   width: 30rem;
@@ -93,8 +92,6 @@ label {
   font-size: 1.5rem;
   text-align: center;
 }
-/* -----------テスト------------------ */
-
 .top_section {
   width: 100%;
 }
@@ -108,9 +105,6 @@ label {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   z-index: 4;
-  /* background-image: url("{{ asset('assets/img/green.jpeg') }}");
-  background: url("../img/green.jpeg");
-  background-size: cover; */
 }
 .bodyImgs {
   width: 100%;
@@ -407,7 +401,10 @@ table tr {
       width: 100%;
   }
   .bodyImgs {
-    height: 50rem;
+    height: 40rem;
+  }
+  .bodyImg {
+    height: 40rem;
   }
   .titleImg {
     width: 20rem;
@@ -423,13 +420,6 @@ table tr {
   label {
     font-size: 0.8rem;
   }
-  .timeChoice {
-    font-size: ;
-  }
-  /* .timeChoices {
-      
-    width: 30%;
-  } */
   /* --------------------確認画面--------------------------- */
   .confirm_wrapper {
     width: 100%;
